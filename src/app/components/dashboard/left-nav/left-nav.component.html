@@ -1,0 +1,66 @@
+<!--&lt;!&ndash;layout&ndash;&gt;-->
+<!--<div class="tw-w-full tw-h-full tw-flex tw-flex-row">-->
+<!--  &lt;!&ndash; sidenav-main &ndash;&gt;-->
+<!--  <div #sidenavMain class="tw-w-72 tw-h-screen tw-bg-gradient-to-br tw-from-neutral-600 tw-to-neutral-800 open-nav-state">-->
+<!--    &lt;!&ndash; logo &ndash;&gt;-->
+<!--    <div class="tw-w-full  tw-h-16  tw-px-2  tw-flex  tw-flex-row  tw-items-center  tw-justify-between">-->
+<!--      &lt;!&ndash; logo-img &ndash;&gt;-->
+<!--      <img  #logoImg class=" tw-h-12" src="https://angular.tw/assets/images/logos/angular/logo-nav@2x.png"  alt=""/>-->
+<!--      &lt;!&ndash; collapse-icon &ndash;&gt;-->
+<!--      <button mat-icon-button  class="active:tw-bg-violet-700"  aria-label="menu"  (click)="toggleSidenav()">-->
+<!--        <mat-icon class="text-white">{{isOpen ? 'arrow_left' : 'menu'}}</mat-icon>-->
+<!--      </button>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash; nav-item-container &ndash;&gt;-->
+<!--    <div>-->
+
+<!--      &lt;!&ndash; nav-item &ndash;&gt;-->
+<!--      <a-->
+<!--        class="flex flex-row items-center text-white"-->
+<!--        routerLinkActive="active-link">-->
+<!--        &lt;!&ndash; nav-item-icon &ndash;&gt;-->
+<!--        <span class="mx-3 my-2">-->
+<!--          <mat-icon>build</mat-icon>-->
+<!--        </span>-->
+<!--        &lt;!&ndash; nav-item-title &ndash;&gt;-->
+<!--        <span #navItemTitleA class="my-2 whitespace-nowrap">AAAAA</span>-->
+<!--      </a>-->
+<!--      &lt;!&ndash; nav-item &ndash;&gt;-->
+<!--      <a-->
+<!--        class="flex flex-row items-center text-white"-->
+<!--        routerLinkActive="active-link">-->
+<!--        &lt;!&ndash; nav-item-icon &ndash;&gt;-->
+<!--        <span class="mx-3 my-2">-->
+<!--          <mat-icon>build</mat-icon>-->
+<!--        </span>-->
+<!--        &lt;!&ndash; nav-item-title &ndash;&gt;-->
+<!--        <span #navItemTitleB class="my-2 whitespace-nowrap">BBBBB</span>-->
+<!--      </a>-->
+<!--    </div>-->
+
+<!--  </div>-->
+<!--  &lt;!&ndash; content-main &ndash;&gt;-->
+<!--  <div class="tw-grow  tw-flex  tw-flex-col  tw-bg-green-300">-->
+<!--    <router-outlet fxFlex></router-outlet>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+<div class="tw-flex ">
+<!--  start sidenavMain-->
+<div #sidenavMain class="tw-bg-blue-500 tw-h-screen tw-p-5 tw-pt-8 tw-w-72 tw-relative">
+  <button mat-icon-button  class="active:tw-bg-violet-700 tw-absolute -tw-right-3 tw-top-8 tw-rounded-full tw-bg-emerald-400"  aria-label="menu"  (click)="toggleSidenav()">
+<!--    <mat-icon class="text-white">{{isOpen ? 'arrow_left' : 'menu'}}</mat-icon>-->
+    <img class="tw-p-3 {{isOpen ? '' : 'tw-rotate-180'}}" src="assets/images/icons/arrow.svg"  alt=""/>
+  </button>
+  <div #logoImg class="tw-inline-flex">
+    <img  class="tw-rounded tw-block tw-float-left tw-mr-2" src="assets/images/icons/dashboard.svg"  alt=""/>
+    <h1 class="tw-text-black tw-origin-left tw-text-2xl tw-duration-300">Dashboard</h1>
+  </div>
+</div>
+  <!--  end  sidenavMain-->
+  <div class="tw-p-7">
+    <h1 class="tw-text-2xl">HOME PAGE</h1>
+  </div>
+</div>

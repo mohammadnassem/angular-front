@@ -1,0 +1,455 @@
+.page-bnr {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: auto;
+
+}
+
+.bnr-img {
+  width: 100%;
+  height: 400px;;
+  align-self: stretch;
+  border-radius: var(--border-radius-medium, 12px);
+  background: var(--color-style-gray-400, #CED4DA);
+}
+
+
+.card-item {
+
+  position: relative;
+  height: 100%;
+  border-radius: 12px;
+  padding: 30px 0px 23px 21.654px;
+  background: var(--color-style-default-white, #FFF);
+  /* Shadow/medium */
+  box-shadow: 0px 2px 16px 0px rgba(14, 86, 124, 0.10);
+}
+
+.numberCircle {
+  width: 39.6px;
+  height: 39.6px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 21.6px;
+  border: 2px solid #80BC00;
+  color: white;
+  position: absolute;
+  top: -20px;
+  left: 8%;
+  transform: translateX(-50%);
+  background-color: #80BC00;
+}
+
+.filter-action {
+  display: flex;
+  width: 100%;
+  padding: var(--border-radius-small, 8px) 16px;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: var(--border-radius-small, 8px);
+  border: 0.5px solid #DCE5EB;
+  background: #FFF;
+}
+
+.filter-style-2 .filter-wrap {
+  background: none;
+}
+
+.filter-button {
+  margin-bottom: 0px !important;
+  border: none !important;
+}
+
+.filter-button.active, .filter-button.btn-default:hover, .filter-button.btn-default:focus {
+  background: #008A96 !important;
+  border-color: #008A96 !important;
+  color: white;
+}
+
+.filter-button::before {
+  border-top: 8px solid #008A96;
+}
+
+
+.header-section {
+  display: flex;
+  width: 100%;
+  padding: 16px 24px;
+  align-items: flex-start;
+  gap: var(--border-radius, 10px);
+  border-radius: var(--border-radius-small, 8px);
+  border: 0.3px solid var(--colors-light-gray, #E1E1E1);
+  background: var(--color-style-background-footer-bg, #F5F9F9);
+}
+
+
+.display-medium {
+  color: var(--color-style-default-black, #000);
+
+  /* Display Medium/Medium */
+  font-family: Dubai;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52px; /* 115.556% */
+}
+
+.heading-h6-regular {
+  color: var(--color-style-text-text-primary, #1A1A1A);
+
+  /* Heading H6/regular */
+  font-family: Dubai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+
+}
+
+
+.table-cell-text{
+  color: var(--Text-color, var(--Text-color, #18181B));
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Dubai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.heading-h6-medium {
+  color: var(--Text-color, var(--Text-color, #18181B));
+  /* Heading H6/medium */
+  font-family: Dubai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+}
+
+.paragraph-medium {
+  color: var(--color-style-text-text-primary, #1A1A1A);
+
+  /* Paragraph Medium/medium */
+  font-family: Dubai;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.heading-h2-medium {
+  color: var(--Text-color, var(--Text-color, #18181B));
+  /* Heading H2/medium */
+  font-family: Dubai;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px; /* 122.222% */
+}
+
+
+
+/*.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {*/
+/*  background: var(--Footer-BG, #F5F9F9);*/
+
+/*}*/
+
+
+ .basic-pillars-table tr:not(:nth-child(odd)) td{
+  background-color:  var(--Footer-BG, #F5F9F9) !important;
+}
+
+.basic-pillars-table th {
+  background-color: var(--Footer-BG, #F5F9F9);
+
+}
+
+
+
+/*table css*/
+.wrapper {
+  margin-top: 5vh;
+}
+
+.dataTables_filter {
+  float: right;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #ccffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .table {
+    table-layout: fixed;
+    max-width: 100% !important;
+  }
+}
+
+thead {
+  background: #ddd;
+}
+
+.table td:nth-child(2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.highlight {
+  background: #ffff99;
+}
+
+@media only screen and (max-width: 767px) {
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr,
+  tfoot tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50% !important;
+    min-height: 35px;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  .table td:nth-child(1) {
+    background: #ccc;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+  }
+
+  /*
+  Label the data
+  */
+  .basic-pillars-table td:nth-of-type(1):before {
+    content: "Insurance Company";
+  }
+
+  .basic-pillars-table td:nth-of-type(2):before {
+    content: "Contact Number";
+  }
+
+  .basic-pillars-table td:nth-of-type(3):before {
+    content: "Insurance Price";
+  }
+
+  .basic-pillars-table td:nth-of-type(4):before {
+    content: "Registration Link";
+  }
+
+  .basic-pillars-table td:nth-of-type(5):before {
+    content: "Benefit Network";
+  }
+
+
+  .dataTables_length {
+    display: none;
+  }
+}
+
+
+
+.table-button {
+
+  padding: 8px;
+  border-radius: var(--border-radius-small, 8px);
+  border: 0.8px solid var(--color-style-primary-color, #008A96);
+  background: #FFF;
+  box-shadow: 0px 3px 30px 5px rgba(217, 217, 217, 0.10);
+  color: var(--color-style-primary-color, #008A96);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Dubai;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-color: #008A96 !important;
+}
+
+.insurance-table table {
+  border-radius: 20px 20px 0px 0px !important;
+  background: var(--Footer-BG, #F5F9F9) !important;
+
+}
+
+.insurance-table thead {
+  border-radius: 20px 20px 0px 0px !important;
+  background: var(--Footer-BG, #F5F9F9) !important;
+}
+
+.table-bordered {
+  border-radius: 20px 20px 0px 0px !important;
+  width: 90%; /*Tested and working as expected: */
+  padding-top: 1%;
+  margin: 0px auto;
+  float: none;
+  border: 3px solid var(--colors-light-gray, #E1E1E1);
+
+}
+
+/*end table css*/
+
+/*benefit-overview*/
+.benefit-overview {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 22px;
+  align-self: stretch;
+  border-radius: var(--border-radius-medium, 12px) var(--border-radius-medium, 12px) 0px 0px;
+}
+
+.benefit-overview ul {
+  list-style: initial;
+}
+
+.paragraph-large-medium {
+  color: var(--color-style-text-text-primary, #1A1A1A);
+  /* Paragraph Large/medium */
+  font-family: Dubai;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+}
+
+.paragraph-large-regular {
+  color: var(--color-style-text-text-primary, #1A1A1A);
+  /* Paragraph Large/regular */
+  font-family: Dubai;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+
+/*end benefit-overview*/
+
+
+/*accordion start*/
+
+.accordion-item {
+  border-radius: var(--border-radius-medium, 12px) !important;
+  border: 0.1px solid #DCE5EB;
+  background: var(--color-style-default-white, #FFF);
+  /* Shadow/Small */
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.03);
+
+}
+
+.borderless td, .borderless th, table {
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background: var(--color-style-default-white, #FFF);
+  color: var(--Text-color, var(--Text-color, #18181B));
+}
+
+.accordion-button {
+  text-decoration: none;
+}
+
+.accordion-header a:hover, a:active, a:focus {
+  color: #008A96;
+}
+
+
+.accordion-button::after {
+  border-radius: var(--border-radius-large, 32px);
+  background: var(--color-style-background-footer-bg, #F5F9F9);
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  margin-inline-start: auto;
+  content: "";
+  background-image: var(--bs-accordion-btn-icon);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.accordion-button:not(.collapsed)::after {
+
+  filter: none !important;
+}
+
+.custom-thead th {
+  background-color: var(--Footer-BG, #F5F5F5) !important;
+}
+
+.custom-thead th:first-child ,.basic-pillars-table th:first-child{
+
+  border-radius: 20px 0px 0px 0px;
+}
+
+.custom-thead th:last-child,.basic-pillars-table th:last-child {
+
+  border-radius: 0px 20px 0px 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  /*
+  Label the data
+  */
+  .accordion-body td:nth-of-type(1):before {
+    content: "Benefits";
+  }
+
+  .accordion-body td:nth-of-type(2):before {
+    content: "Conditions";
+  }
+
+  .accordion-body td:nth-of-type(3):before {
+    content: "Coinsurance and Limits";
+  }
+}
+
+.table-footer {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 10px var(--border-radius, 10px);
+  align-self: stretch;
+  flex-wrap: wrap;
+  border-radius: var(--border-radius-small, 8px);
+  background: var(--color-style-gray-100, #F5F5F5);
+}
+
+/*accordion end */

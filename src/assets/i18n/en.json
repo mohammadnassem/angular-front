@@ -1,0 +1,436 @@
+{
+  "wellness_page": {
+    "title": "Wellness in Dubai",
+    "experience": "Experience a unique and holistic approach to mind and body rejuvenation",
+    "dubai_aims": "Dubai aims to provide rich-quality experience combined with a holistic approach for the overall wellbeing. It offer activities and programs promising and delivering healing, personal growth and intense pampering and relaxation in the safest and most secure environment.",
+    "wellness_partners": "Wellness Partners",
+    "images": {
+      "img_1": {
+        "title": "Integrated Health Centres",
+        "desc": "An array of integrated health centers, globally renowned wellness resorts, centers, beauty and aesthetics and dental clinics licensed and regulated by The Dubai Health Authority."
+      },
+      "img_2": {
+        "title": " Holistic Wellness",
+        "desc": "Holistic wellness retreats for relaxation, weight loss, diabetes management and other individual goals are developed in guidance with licensed professionals; Wellness Nutritionist "
+      },
+      "img_3": {
+        "title": "Journey to Dubai",
+        "desc": "Your journey to Dubai can even begin before you arrive and continue with on-going follow-up and support after you leave."
+      }
+    }
+  },
+  "medical_tourism": {
+    "title": "Medical in Dubai",
+    "overview": "Home to World-class internationally accredited healthcare institutions delivering a fulfilling patient experience",
+    "world-class": "Dubai is home to world-class internationally accredited healthcare institutions that offer innovation and integrated care model that delivers a fulfilling patient experience. The highly advanced infrastructure of healthcare service providers offer a range of specialties covering elective procedures in cosmetic treatment & surgery, orthopedics and sports medicine, ophthalmology, dental, dermatology, wellness and preventive health check-up, as well as assisted reproductive techniques and weight loss management and surgeries. Not only infrastructure but Dubai also offers a \npool of skilled and licensed healthcare professionals that have established their credentials as leaders around the world.",
+    "DXH_Group": "DXH Group Members",
+    "images": {
+      "img_1": {
+        "title": "World-class Quality",
+        "desc": "Dubai strives to continuously provide high-quality healthcare of international standards."
+      },
+      "img_2": {
+        "title": " Ease of communication",
+        "desc": "More than 120 Nationalities in the Healthcare Sector makes you fell home. "
+      },
+      "img_3": {
+        "title": "World Class tourism",
+        "desc": "Dubai is a cosmopolitan city, offers an unforgettable experience to all visitors with incredible activities, hotels, unique itineraries."
+      },
+      "img_4": {
+        "title": "World-class healthcare facilities",
+        "desc": "Internationally recognized A global health tourism destination and a gateway to the finest medical experts and premier accredited healthcare facilities."
+      },
+      "img_5": {
+        "title": "A Government Initiative",
+        "desc": "Health tourism in Dubai is an initiative led by the Government of Dubai."
+      },
+      "img_6": {
+        "title": "Patient Safety",
+        "desc": "Well-regulated healthcare sector to keep up to date with the latest in technology and expertise as well as to protect patient safety and provide patient centric care."
+      },
+      "img_7": {
+        "title": "Award and Accolades",
+        "desc": "Number 1 Health tourism Destination in the region and 6th Internationally."
+      }
+    }
+  },
+  "about_tourism": {
+    "title": "About Health Tourism",
+    "overview": "Your gateway to high-quality healthcare services and an unparalleled holiday experience in Dubai",
+    "desc": "Dubai is one of the world’s fastest developing and flourishing cities in the world. The city has become a model of modernity, luxury and prosperity, creating a better future in health. Dubai strives to meet the needs of those searching for an exceptional treatment experience and an ideal healing environment, which promotes the well-being and happiness. \n\nDHA aims to be a market leader in the field of Health tourism and promote high-quality medical services for elective treatments in niche specialties such as Dental, Ophthalmology, Orthopedic, Fertility, Cosmetic, Gynecology and Wellness along with an unparalleled holiday experience in the world’s most dynamic city, Dubai. \n\nIn April 2016, a star was born: Brand Dubai Health Experience (DXH) was launched under Dubai Health Authority (DHA), a government entity that oversees Dubai’s health sector, to put healthcare at the heart of Dubai’s lifestyle experience, giving health travelers an unforgettable voyage across an impressive spectrum of premier accredited clinics and hospitals. The Health Tourism Department, under DHA is responsible for planning, supervising and developing the Health Tourism ecosystem in Dubai. It is dedicated to work in collaborations with public and private sector to promote Dubai as a global health tourism destination. Dubai Health Experience allows you to fully ‘Embrace Life’ with advanced and comprehensive.",
+    "DXH_brochure": "DXH Brochure",
+    "View_Specialties": "View Specialties"
+  },
+  "covid_page": {
+    "title": "Covid-19",
+    "overview": "Dubai Challenge: The COVID-19 Challenge",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "view_online": "View Online"
+  },
+  "occupational_page": {
+    "": "Occupational Health",
+    "": "About Occupational Health",
+    "": "Occupational health is an area of work in public health to promote and maintain the highest degree of physical, mental, and social well-being of workers in all occupations. ",
+    "": "Occupational Health Objectives",
+    "object": {
+      "object_1": "Maintain and promote workers' health and working wellbeing.",
+      "object_2": "Protect professional workers and community health by monitoring, preventing transmission, and limiting the spread of communicable diseases in the emirate of Dubai.",
+      "object_3": "Identify public health problems and priority health risks. ",
+      "object_4": "rotect workers’ health by raising their health standards and protecting them from occupational dangers, diseases, and work accidents.",
+      "object_5": " Raise awareness of risks and develop surveillance and preparedness mechanisms to confront public health risks."
+    },
+    "accordions": {
+      "accordion_1": {
+        "title": "Scope of Work",
+        "header": "Along with the expanding workforce of the UAE comes the importance of Occupational Health role in protecting workers from health hazards in the workplace.",
+        "overview": "Occupational health reflects the essential focus of modern public health Aiming at:",
+        "point_1": "Taking care of workers’ health, raising their health standards, and protecting them from occupational dangers, diseases, and work accidents.",
+        "point_2": "Raising awareness of risks and developing surveillance and preparedness mechanisms to confront public health risks.",
+        "point_3": "develop national policies and action plans and build institutional capacities on occupational health,",
+        "point_4": "scale up the coverage with essential interventions for prevention and control of occupational and work-related diseases and injuries and occupational health services",
+        "point_5": "ensure collaboration with other relevant national health programs such as those dealing with communicable and non-communicable diseases, prevention of injuries, health promotion, mental health, environmental health, and health systems development."
+      },
+      "accordion_2": {
+        "title": "Community involvement",
+        "header": "Occupational health aims at the promotion and maintenance of the highest degree of physical, mental, and social well-being of workers in all occupations; the prevention amongst workers of departures from health caused by their working conditions; the protection of workers in their employment from risks resulting from factors adverse to health; the placing and maintenance of the worker in an occupational environment adapted to his physiological and psychological capabilities.",
+        "overview": "\nIndividuals are often expected to perform complex tasks involving physical and mental demands. Workload is determined by the interaction of the task demands, the circumstances under which it is performed, and the skills, behaviors, and perceptions of the individual."
+      },
+      "accordion_3": {
+        "title": "Occupational health aims to prevent work-related illness and injury by:",
+        "point_1": "Encouraging safe working practices to meet health and safety compliance and to avoid work-related health problems.",
+        "point_2": "Studying how employees can work better.",
+        "point_3": "Monitoring the health of the workforce.",
+        "point_4": "Supporting the management of sickness absence, including managing difficulties in coping on return after being absent.",
+        "point_5": "Supporting health promotion and education programs.",
+        "point_6": "Providing advice and counseling to employees around non-health-related problems.",
+        "point_7": "Advising on reasonable adjustments to your working conditions."
+      },
+      "accordion_4": {
+        "title": "Ports Health Unit",
+        "point_1": "Ports of entry are controlled by a set of rules, the “Health Regulations for Points of Entry”, issued following the World Health Organization, “International Health Regulations 2005” (IHR 2005), and which have been signed by all Member States of the United Nations. The International Health Regulations are a code of laws and procedures to prevent the international spread of diseases.",
+        "point_2": "The purpose and scope of the International Health Regulations (2005) is “to prevent, control and provide a public health response to the international spread of diseases in ways that are comparable to and limited by the risks to public health.",
+        "point_3": "Controlling port health services procedures to and from the country’s entrances following Federal Law No. (14) of 2014 regarding controlling communicable diseases and Executive Regulations No. (33) of 2016 regulating it, and the International Health Regulations 2005."
+      },
+      "accordion_5": {
+        "title": "Procedures followed in the event of suspected infectious diseases or any health conditions inside the ship.",
+        "point_1": "Isolating infected people.",
+        "point_2": "Imposing a quarantine on the ship and preventing the entry and exit of people and goods.",
+        "point_3": "Disinfecting the ship.",
+        "point_4": "Notifying the relevant authorities about the ship’s condition"
+      }
+    }
+  },
+  "promotion_page": {
+    "title": "Health and Promotion and Awareness",
+    "tape_1": "Health Education",
+    "tape_2": "Health Nutrition"
+  },
+  "investing_page": {
+    "title": "Investing in Dubai Healthcare sector",
+    "section_1": {
+      "title": "Who Are We",
+      "overview": "The investment and PPP department was established in 2017 to promote Dubai as a viable and competitive hub for investment in healthcare.  It released its strategy in 2018 focusing on the following initiatives:",
+      "point_1": "Investment Promotion and PPP facilitation",
+      "point_2": "Inward Investment Government",
+      "point_3": "Health Investment Guidelines",
+      "point_4": "Commercial Incentives and Policies",
+      "point_5": "Enabling Healthcare Regulations"
+    },
+    "section_2": {
+      "title": "What We Do",
+      "InvestmentGuide": "Dubai Health Investment Guide",
+      "overview": "The Investments & Public Private Partnership’s Department at Dubai Health Authority aims to provide the best service for investors, and to enable sustainable public-private models in Dubai.  Its role is therefore to support DHA’s objective of providing healthcare in line with global best practices, fostering innovation in all health-related sectors and of becoming a medical hub for the region by attracting investors and encouraging these to contribute to the development of targeted areas."
+    },
+    "Investment_Focus": "Investment Focus Areas",
+    "Investment_Focus_desc": "The focus areas to support the development of Dubai's health ecosystem are identified in the short to mid-term",
+    "Focus_next": "Focus areas for the next 2-3 years ",
+    "continuum": "Identified areas on continuum of care:",
+    "object1": {
+      "point_1": "Mental health",
+      "point_2": "Rehabilitation and physical therapy",
+      "point_3": "Long-term and extended care",
+      "point_4": "Tertiary care for diabetes, cardiology and oncology",
+      "point_5": "Chronic disease management"
+    },
+    "evolution": "Supported by health system evolution and technology:",
+    "object2": {
+      "point_1": "Innovations in primary care ",
+      "point_2": "Home-based care",
+      "point_3": "Diagnostic health and remote monitoring",
+      "point_4": "Urgent care clinics",
+      "point_5": "Ambulatory care "
+    },
+    "Focus_areas": "Focus areas for the next 3-5 years",
+    "object3": {
+      "point_1": "Prevention and pharmacy beypnd the pill",
+      "point_2": "Precision medicine and genatics",
+      "point_3": "Population health management",
+      "point_4": "Nursing homes and pallative care"
+    }
+  },
+  "permit_page": {
+    "title": "Health Insurance Permit Services",
+    "overview": "Issuing and granting permits to insurance companies, insurance brokers, claims management companies and health service providers according to approved insurance policies.",
+    "three_basic": "The Dubai Health Insurance System (ISAHD) has three basic pillars:",
+    "first": "provide advice on insurance coverage, laws and any other relevant questions",
+    "Monitoring": "Monitoring and introducing improvements in the sustainable, high-quality health care system",
+    "Playing": "Playing a major role in the licensing process for insurance companies, brokers and claims management companies",
+    "Basic_Packages": "Basic Packages",
+    "Qualified": "Qualified Insurance Companies",
+    "Company_Name": "Insurance Company Name",
+    "Contact_Number": "Contact Number",
+    "Insurance_Price": "Insurance Price",
+    "Registration_Link": "Registration Link",
+    "Benefit_Network": "Benefit Network",
+    "table": {
+      "row_1": {
+        "col1": "Qatar Insurance Company",
+        "col2": "800 4742",
+        "col3": "597",
+        "col4": "https://www.qicuae-online.com/medical/LoginPage.do?location=IN",
+        "col5": "https://www.qicuae.com/insurance/medical-insurance/"
+      },
+      "row_2": {
+        "col1": "Cigna Insurance Middle East",
+        "col2": "04-5127100",
+        "col3": "730",
+        "col4": "https://www.qicuae-online.com/medical/LoginPage.do?location=IN",
+        "col5": "https://www.qicuae.com/insurance/medical-insurance/"
+      },
+      "row_3": {
+        "col1": "Union Insurance Company",
+        "col2": "800 84248",
+        "col3": "550",
+        "col4": "https://www.unioninsurance.ae/en-us/personal/health-essential-benefits-plan/",
+        "col5": "https://www.unioninsurance.ae/en-us/personal/health-essential-benefits-plan/"
+      },
+      "row_4": {
+        "col1": "National General Insurance Company PJSC - NGI",
+        "col2": "04 – 211 5800",
+        "col3": "550",
+        "col4": "https://ngionline.ae/",
+        "col5": "https://ngi.ae/individual-plans/dubai/"
+      },
+      "row_5": {
+        "col1": "AlBuhaira National Insurance Company",
+        "col2": "600 545459",
+        "col3": "550",
+        "col4": "https://online.albuhaira.com/insurance/product/family-medical/applicant-detail",
+        "col5": "https://albuhaira.com/medical-network-tpa"
+      },
+      "row_6": {
+        "col1": "Sukoon",
+        "col2": "971 5 51609342",
+        "col3": "560",
+        "col4": "https://direct.sukoon.com/health-insurance/plansandbenefits/",
+        "col5": "https://medicalnetwork.sukoon.com/"
+      },
+      "row_7": {
+        "col1": "Dubai National Insurance Company",
+        "col2": "600 580000",
+        "col3": "535",
+        "col4": "https://www.dni.ae/personal-insurance/medical/dha_ebp/",
+        "col5": "https://www.dni.ae/personal-insurance/medical/dha_ebp/"
+      },
+      "row_8": {
+        "col1": "Islamic Arab Insurance Co. (SALAMA)",
+        "col2": "800-725262",
+        "col3": "600",
+        "col4": "https://essential-benefit-plan.salama.ae/health",
+        "col5": "https://essential-benefit-plan.salama.ae/health/plans"
+      },
+      "row_9": {
+        "col1": "Abu Dhabi National Insurance Company PJSC (ADNIC)",
+        "col2": "800 8040",
+        "col3": "575",
+        "col4": "https://online.adnic.ae/eportal/medical.html",
+        "col5": "https://online.adnic.ae/eportal/medical.html"
+      },
+      "row_10": {
+        "col1": "Dubai Insurance Company",
+        "col2": "800 382467",
+        "col3": "550-750",
+        "col4": "https://basicplan.dubins.ae/Individual/MemberDetails.aspx",
+        "col5": "https://basicplan.dubins.ae/Downloads/DIN_DubaiCare_Basic_Network_List.xlsx"
+      },
+      "row_11": {
+        "col1": "American Life Insurance Company (MetLife)",
+        "col2": "971 4 415 4555",
+        "col3": "550",
+        "col4": "https://www.metlife.ae/en/",
+        "col5": "https://www.metlife.ae/content/dam/metlifecom/ae/PDFs/basic-medlplan-ess-med-benefit-plan-oct.xlsx"
+      },
+      "row_12": {
+        "col1": "Noor Takaful",
+        "col2": "800-Takaful (825 2385)",
+        "col3": "550",
+        "col4": "https://portal.noortakaful.com/Medicall/#/",
+        "col5": "https://portal.noortakaful.com/Medicall/#/"
+      },
+      "row_13": {
+        "col1": "Al Saqr National Insurance Company",
+        "col2": "971 4 7028500",
+        "col3": "525",
+        "col4": "https://portalmed.alsagrins.ae/",
+        "col5": "https://www.alsagrins.ae/downloads/"
+      },
+      "row_14": {
+        "col1": "Orient Insurance PJSC",
+        "col2": "800 ORIENT (674638)",
+        "col3": "550",
+        "col4": "https://orientonline.ae/PORTALS/GuestLogin.aspx?MasterId=feQnJ5WqcI0ZLouKOOQc0h1GcTU%2frsFO9EzaYCs07PgOIq4CM%2fNEXTBVCSo0Wckp",
+        "col5": "https://orientonline.ae/PORTALS/GuestLogin.aspx?MasterId=feQnJ5WqcI0ZLouKOOQc0h1GcTU%2frsFO9EzaYCs07PgOIq4CM%2fNEXTBVCSo0Wckp"
+      }
+    },
+    "Insurance_Packages": "Benefits and Insurance Packages",
+    "Annual_upper": "Annual upper aggregate claims limit (including any coinsurance and/or deductibles) is 150,000 AED.",
+    "geographic_scope":"Geographic scope of coverage:",
+    "point_1": "For Basic healthcare services, within the Emirate of Dubai (and other emirates or countries at the discretion of the insurer).",
+    "point_2": "For Emergency medical treatment (Including Ambulance Charges), within all emirates of the UAE.",
+    "Provider_network": "Provider network:",
+    "point_3": "Limited network is acceptable.",
+    "point_4": "The network must provide reasonable geographic access for the insured in relation to place of work and residence.",
+    "Benefits": "Benefits",
+    "Conditions": "Conditions",
+    "Limits": "Coinsurance and Limits",
+    "accordion_1": {
+      "title": "Pre-existing Conditions",
+      "row_1": {
+        "col1": "Pre-existing conditions must be covered <br> Cover cannot be denied due to pre-existing conditions",
+        "col2": "Treatment for chronic and pre-existing conditions may be excluded during the first 6 months of membership of an individual’s first scheme within the UAE. (Here “scheme” includes any and all schemes providing cover for medical expenses whether or not it is self-funded or on an insured basis). In all other cases, pre-existing conditions must be covered from date of enrolment",
+        "col3": "Not Applicable"
+      },
+      "desc": "Where a pre-existing or chronic condition develops into an emergency, within the 6-month exclusion period, this must be covered up to the annual aggregate limit."
+    },
+    "accordion_2": {
+      "title": "Basic healthcare services: In-patient treatment at authorized hospitals",
+      "row_1": {
+        "col1": "Tests, diagnosis, treatments and surgeries in hospitals for non-urgent medical cases",
+        "col2": "Prior approval required from the insurance company ",
+        "col3": ""
+      },
+      "row_2": {
+        "col1": "Emergency treatment",
+        "col2": "Approval required from the insurance company within 24 hours of admission to the authorised hospital",
+        "col3": "20% coinsurance payable by the insured with a cap of 500 AED payable per encounter and an annual aggregate cap of 1000 AED.Above these caps the insurer will cover 100% of treatment."
+      },
+      "row_3": {
+        "col1": "In-patient services will be received in rooms of two or more beds",
+        "col2": "Prior approval required from the insurance company",
+        "col3": ""
+      },
+      "row_4": {
+        "col1": "Ground transportation services in the UAE provided by an authorized party for medical emergencies",
+        "col2": "Not Applicable",
+        "col3": "Maximum 100 AED per night can be applied"
+      },
+      "row_5": {
+        "col1": "Companion accommodation",
+        "col2": "The cost of accommodating a person accompanying an insured child up to the age of 16 years",
+        "col3": ""
+      },
+      "desc": "Referral procedure: In respect of Essential Benefit Plan members, no costs incurred for advice, consultations or treatments provided by specialists or consultants without the insured first consulting a General Practitioner (or equivalent as designated by DHA) who is licensed by DHA or another competent UAE authority will be payable by the insurer. The GP must make his referral together with reasons via the DHA e-Referrals system (or other such temporary manual system) for the claim to be considered by the Insurer."
+    },
+    "accordion_3": {
+      "title": "Basic Healthcare Services: Out-patient services in authorized out-patient clinics; clinics of hospitals and health center",
+      "row_1": {
+        "col1": "Examination, diagnostic and treatment services by authorized general practitioners, specialists and consultants",
+        "col2": " ",
+        "col3": "20% coinsurance payable by the insured per visit No coinsurance if a follow-up visit is made within seven days"
+      },
+      "row_2": {
+        "col1": "Laboratory test services carried out in the authorized facility assigned to treat the insured person",
+        "col2": "",
+        "col3": "20% coinsurance payable by the insured"
+      },
+      "row_3": {
+        "col1": "Radiology diagnostic services carried out in the authorized facility assigned to treat the insured person.",
+        "col2": "In cases of non-medical emergencies, the insurance company’s prior approval is required for MRI, CT scans and endoscopies",
+        "col3": "20% coinsurance payable by the insured"
+      },
+      "row_4": {
+        "col1": "Physiotherapy treatment services",
+        "col2": "Prior approval of the insurance company is required",
+        "col3": "Maximum 6 sessions per year. 20% coinsurance payable per session."
+      },
+      "row_5": {
+        "col1": "Drugs and other medicines",
+        "col2": "Cost of drugs and medicines up to an annual limit of 1,500 AED (including coinsurance). Restricted to formulary products where available.",
+        "col3": "30% payable by the insured in respect of each and every prescription <br> No cover for drugs and medicines in excess of the annual limit\n"
+      },
+      "desc": "Referral procedure: In respect of Essential Benefit Plan members, no costs incurred for advice, consultations or treatments provided by specialists or consultants without the insured first consulting a General Practitioner (or equivalent as designated by DHA) who is licensed by DHA or another competent UAE authority will be payable by the insurer. The GP must make his referral together with reasons via the DHA e-Referrals system (or other such temporary manual system) for the claim to be considered by the Insurer."
+    },
+    "accordion_4": {
+      "title": " Maternity Services",
+      "row_1": {
+        "col1": "Out-patient ante-natal services",
+        "col2": "Requires prior approval from the insurance company ",
+        "col3": "<p> 10% coinsurance payable by the insured 8 visits to PHC;All care provided by PHC obstetrician for low risk or specialist obstetrician for high risk referrals Initial investigations to include:</p>  <ul> <li>FBC and Platelets </li> <li>Blood group, Rhesus status and antibodies  </li> <li>VDRL</li>  <li>MSU & urinalysis</li> <li>Rubella serology</li>  <li>HIV</li> <li>Hep C offered to high risk patients</li><li>GTT if high risk</li><li>•\tFBS , random s or A1c for all due to high prevalence of diabetes in UAE</li></ul>  <p>Visits to include reviews, checks and tests in accordance with DHA Antenatal Care Protocols 3 ante-natal ultrasound scans </p> "
+      },
+      "row_2": {
+        "col1": "In-patient maternity services",
+        "col2": "Requires prior approval from the insurance company or within 24 hours of emergency treatment",
+        "col3": "<ul> <li>10% coinsurance payable by the insured Maximum benefit 10,000 AED per normal delivery. </li>  <li>10,000 AED for medically necessary C-section. </li>  <li>Complications and for medically necessary termination (All limits include coinsurance).</li> </ul>"
+      },
+      "row_3": {
+        "col1": "Newborn cover",
+        "col2": "Coverage of a pregnant woman is extended by the insurer to provide the same benefits for a newborn child of the insured woman, for a period up to 30 days from the date of birth of the newborn. This cover is provided regardless of whether or not the newborn is eventually enrolled as a dependent member under the insurer’s policy",
+        "col3": "Cover for 30 days from birth. BCG, Hepatitis B and neo-natal screening tests (Phenylketonuria (PKU), Congenital Hypothyroidism, sickle cell screening, congenital adrenal hyperplasia)"
+      },
+      "desc": "Note: Where any condition develops which becomes life threatening to either the mother or the newborn, the medically necessary expenses will be covered up to the annual aggregate limit."
+    },
+    "accordion_5": {
+      "title": " Preventive Services, Vaccines and Immunizations",
+      "row_1": {
+        "col1": "Essential vaccinations and inoculations for newborns and children as stipulated in the DHA’s policies and its updates (currently the same as Federal MOH)",
+        "col2": "NA",
+        "col3": "NA "
+      },
+      "row_2": {
+        "col1": "Preventive services as stipulated by DHA to include initial diabetes screening",
+        "col2": "The DHA has to notify authorized insurance companies of any preventive services that will be added to the basic package at least three months in advance of the implementation date and the newly covered preventive services will be covered from that date",
+        "col3": " <p> Frequency restricted to:  </p> <ul> <li>Diabetes: Every 3 years from age 30. </li>  <li>High risk individuals</li>  <li>Annually from age 18.</li> </ul>"
+      },
+      "row_3": {
+        "col1": "Influenza Vaccine",
+        "col2": "Mandatory",
+        "col3": "As per DHA Adult Pneumococcal Vaccination guidelines"
+      },
+      "row_4": {
+        "col1": "Adult Pneumococcal Conjugate Vaccine",
+        "col2": "NA",
+        "col3": "As per DHA Adult Pneumococcal Vaccination guidelines"
+      },
+      "row_5": {
+        "col1": "Hepatitis C Virus Screening and treatment",
+        "col2": "To be followed as per the guidelines laid out in the Hepatitis C support program",
+        "col3": "NA"
+      },
+      "row_6": {
+        "col1": "Hepatitis B Virus Screening and treatment",
+        "col2": "To be followed as per the guidelines",
+        "col3": "NA"
+      },
+      "row_7": {
+        "col1": "Cancer Screening and treatment",
+        "col2": "To be followed as per the guidelines laid out in the Cancer support program",
+        "col3": "NA"
+      }
+    },
+    "accordion_6": {
+      "title": " Excluded healthcare services except in cases of medical emergencies",
+      "row_1": {
+        "col1": "Diagnostic and treatment services for dental and gum treatments",
+        "col2": "NA",
+        "col3": "Subject to 20% coinsurance "
+      },
+      "row_2": {
+        "col1": "Hearing and vision aids, and vision correction by surgeries and laser ",
+        "col2": "NA",
+        "col3": "Subject to 20% coinsurance"
+      }
+    }
+  }
+}
+

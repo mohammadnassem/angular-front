@@ -1,0 +1,40 @@
+import {INavbarDta} from "./helper";
+
+export const navBarData:INavbarDta[] = [
+  {
+    routeLink: 'professional',
+    icon: 'fa fa-home',
+    lable: 'Dashboard'
+  },
+  {
+    routeLink: 'Products',
+    icon: 'fa fa-trash',
+    lable: 'Products'
+  },
+  {
+    routeLink: 'statistics',
+    icon: 'fa fa-tags',
+    lable: 'Statistics',
+    items: [
+      {
+        routeLink: 'statistics/list',
+        lable: 'List Statistics',
+      }, {
+        routeLink: 'statistics/create',
+        lable: 'Create Statistics',
+        items:[
+          {
+            routeLink: 'statistics/list',
+            lable: 'List Statistics'
+          }
+        ]
+      }
+    ]
+  }
+  , {
+    routeLink: 'coupons',
+    icon: 'fa fa-file',
+    lable: 'Coupons'
+  }
+]
+
