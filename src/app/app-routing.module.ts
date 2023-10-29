@@ -17,6 +17,7 @@ import {MedicalComponent} from "./components/health-tourism/medical/medical.comp
 import {WellnessComponent} from "./components/health-tourism/wellness/wellness.component";
 import {InvestingComponent} from "./components/health-tourism/investing/investing.component";
 import {ProfessionalComponent} from "./components/dashboard/professional/professional.component";
+import {FacilityComponent} from "./components/dashboard/facility/facility.component";
 
 
 const routes: Routes = [
@@ -36,6 +37,7 @@ const routes: Routes = [
   {path: 'wellness-tourism', component: WellnessComponent},
   {path: 'Investing', component: InvestingComponent},
   {path: 'professional', component: ProfessionalComponent},
+  {path: 'facility', component: FacilityComponent},
   {path: '**', redirectTo: ''}
   // { path: 'nucleoicons',      component: NucleoiconsComponent }
 ];

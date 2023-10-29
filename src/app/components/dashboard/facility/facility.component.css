@@ -1,0 +1,68 @@
+.my-family{
+  border-radius: var(--border-radius-medium, 0.75rem);
+  background: #FFF;
+  height: 16.1875rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.view-all{
+  display: inline-flex;
+  padding: 0.625rem 6.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: var(--border-radius-small, 0.5rem);
+  background: var(--color-style-primary-color, #008A96);
+}
+
+.content-img{
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: .5rem;
+  background-color: #fff;
+  margin: 1.25rem 0 1.25rem 0;
+  box-shadow: 0 .25rem .5rem #e6edef;
+}
+.card-head {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #edf1f7;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
+
+.details{
+  display: flex;
+  width: 2.5rem;
+  padding: var(--border-radius-small, 0.5rem);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--border-radius-small, 0.5rem);
+  background: var(--color-style-gray-100, #F5F5F5);
+}
+
+.pdf-download{
+  display: flex;
+  width: 2.75rem;
+  padding: var(--border-radius-small, 0.5rem);
+  justify-content: center;
+  align-items: center;
+  gap: var(--border-radius-small, 0.5rem);
+  border-radius: var(--border-radius-small, 0.5rem);
+  background: var(--color-style-teal-various-100, #EAF3F4);
+}
+

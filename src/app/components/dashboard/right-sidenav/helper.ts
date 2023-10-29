@@ -4,6 +4,4 @@ export interface INavbarDta{
   lable:string;
   expanded?:boolean;
   items?:INavbarDta[];
-
-
 }

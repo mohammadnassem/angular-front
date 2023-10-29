@@ -33,6 +33,7 @@ import { SublevelComponent } from './components/dashboard/sidenav/sublevel.compo
 import { RightSidenavComponent } from './components/dashboard/right-sidenav/right-sidenav.component';
 import {RightSublevelComponent} from "./components/dashboard/right-sidenav/right-sublevel.component";
 import { NgApexchartsModule } from "ng-apexcharts";
+import { FacilityComponent } from './components/dashboard/facility/facility.component';
 
 
 
@@ -65,7 +66,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ProfessionalComponent,
     SublevelComponent,
     RightSidenavComponent,
-    RightSublevelComponent
+    RightSublevelComponent,
+    FacilityComponent
 
 
   ],

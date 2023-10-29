@@ -7,7 +7,7 @@ export const navBarData:INavbarDta[] = [
     lable: 'Dashboard'
   },
   {
-    routeLink: 'Products',
+    routeLink: 'facility',
     icon: 'fa fa-trash',
     lable: 'Products'
   },
