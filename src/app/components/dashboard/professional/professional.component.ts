@@ -19,6 +19,8 @@ export type ChartOptions = {
   fill: ApexFill | any;
   legend: ApexLegend | any;
   dataLabels: ApexDataLabels | any;
+  colors: any[]| any;
+  plotOptions: ApexPlotOptions| any;
 };
 
 export type SemiDonut = {
@@ -43,7 +45,28 @@ export class ProfessionalComponent {
   constructor() {
 
     this.chartOptions = {
-      series: [44, 55, 41, 17, 15],
+      plotOptions: {
+        pie: {
+          donut: {
+            labels: {
+              show: true,
+              total: {
+                show: true,
+                showAlways: true,
+                label: 'total',
+                formatter: function (w:any) {
+                  return w.globals.seriesTotals.reduce((a:any, b:any) => {
+                    return (a+b)
+                  })
+                }
+              }
+            }
+          }
+        }
+      },
+      series: [10, 55, 41, 15],
+      labels: ['Apple', 'Mango', 'Orange', 'Watermelon'],
+      colors: ['#FF5B35', '#80BC00', '#FFB35B', '#A4A4A4'],
       chart: {
         width: 380,
         type: "donut"
@@ -55,9 +78,11 @@ export class ProfessionalComponent {
         type: "gradient"
       },
       legend: {
-        formatter: function (val:any, opts:any) {
-          return val + " - " + opts.w.globals.series[opts.seriesIndex];
-        }
+
+        show: true,
+        position: 'bottom',
+        offsetX: -15,
+        horizontalAlign: 'center'
       },
       responsive: [
         {
@@ -73,6 +98,10 @@ export class ProfessionalComponent {
         }
       ]
     };
+
+
+
+
     this.chartOptionsSemiDonut = {
       series: [44, 55, 41, 17, 15],
       chart: {
