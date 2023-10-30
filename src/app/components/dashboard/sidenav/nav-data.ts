@@ -12,7 +12,7 @@ export const navBarData:INavbarDta[] = [
     lable: 'Products'
   },
   {
-    routeLink: 'statistics',
+    routeLink: 'profile-specialities',
     icon: 'fa fa-tags',
     lable: 'Statistics',
     items: [
