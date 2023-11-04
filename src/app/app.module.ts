@@ -35,7 +35,7 @@ import {RightSublevelComponent} from "./components/dashboard/right-sidenav/right
 import { NgApexchartsModule } from "ng-apexcharts";
 import { FacilityComponent } from './components/dashboard/facility/facility.component';
 import { ProfileSpecialitiesComponent } from './components/dashboard/profile-specialities/profile-specialities.component';
-
+import { SettingsProfessionalComponent } from './components/dashboard/settings-professional/settings-professional.component';
 
 
 // AoT requires an exported function for factories
@@ -69,7 +69,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     RightSidenavComponent,
     RightSublevelComponent,
     FacilityComponent,
-    ProfileSpecialitiesComponent
+    ProfileSpecialitiesComponent,
+    SettingsProfessionalComponent
 
 
   ],

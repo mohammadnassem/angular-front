@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
+import { initFlowbite } from 'flowbite';
 interface  SideNavToggle{
   screenWidth:number;
   collapsed:boolean;
@@ -13,6 +14,9 @@ interface  SideNavToggle{
 })
 export class AppComponent {
   title = 'dha';
+  ngOnInit(): void {
+    initFlowbite();
+  }
   constructor(private translate: TranslateService) {
     translate.setDefaultLang('en');
     translate.use('en');

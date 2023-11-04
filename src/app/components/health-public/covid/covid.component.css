@@ -24,19 +24,19 @@
 .covd-card{
     @apply tw-border tw-border-[color:var(--color-style-background-border-tint,#E7E7E7)] tw-border-solid tw-rounded-xl;
     background: #FFF;
-    
+
 }
 
 .desc{
-  
+
     @apply  tw-border-b-[color:var(--color-style-gray-100,#F5F5F5)] tw-pt-0 tw-pb-6 tw-px-6 tw-border-b tw-border-solid;
-    
+
 }
 
 
 .bitt{
   @apply tw-rounded-[var(--border-radius-medium,12px)] tw-border tw-border-[color:var(--color-style-primary-color,#008A96)] tw-border-solid;
-  background: var(--color-style-default-white, #FFF); 
+  background: var(--color-style-default-white, #FFF);
 }
 
 .display-medium{

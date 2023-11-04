@@ -2,6 +2,8 @@
 module.exports = {
   content: [
     "./src/**/*.{html,ts}",
+    './node_modules/preline/dist/*.js',
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     container: {
@@ -15,6 +17,10 @@ module.exports = {
     extend: {},
   },
   prefix: 'tw-',
-  plugins: [],
+  plugins: [
+    require('preline/plugin'),
+    require("daisyui"),
+    require('flowbite/plugin'),
+  ],
 }
 

@@ -1,0 +1,51 @@
+<div class="tw-relative">
+  <div class="rec-profile"></div>
+  <div class="cpd-point">
+    <div class="img-cover "></div>
+    <div class="tw-grow">
+      <p>Dr Ahammed Jamal</p>
+      <div class="tw-flex tw-flex-row  tw-justify-between tw-items-center ">
+        <p>00971504569876</p>
+        <p>Afghanistan</p>
+        <p>anisha787forkuberze@enayu.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="tw-pt-6">
+
+
+</div>
+
+<div class="filter-action">
+  <div class="tw-relative" *ngFor="let tab of navData;let sr = index" (click)="setTab(sr)">
+    <a><div class="action-but" [ngClass]=  "  activatedTab == sr ? 'active': ''">{{tab.lable}}</div></a>
+    <div *ngIf="activatedTab ==sr" class="indicate tw-absolute -tw-bottom-3 tw-left-1/2 tw-transform -tw-translate-x-1/2 -tw-translate-y-1/2"  ></div>
+  </div>
+</div>
+
+
+
+
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-12 dark">
+      <div *ngIf="activatedTab ==0">
+        <p>This Is Register Panel</p>
+      </div>
+      <div *ngIf="activatedTab ==1">
+        <p>This Is Family Panel</p>
+      </div>
+      <div *ngIf="activatedTab ==2">
+        <p>This Is Contact Panel</p>
+      </div>
+      <div *ngIf="activatedTab ==3">
+        <p>This Is Bank Panel</p>
+      </div>
+    </div>
+  </div>
+</div>

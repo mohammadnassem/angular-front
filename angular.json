@@ -29,6 +29,7 @@
 
             ],
             "scripts": [
+
               "./node_modules/@popperjs/core/dist/umd/popper.min.js"
 
             ]

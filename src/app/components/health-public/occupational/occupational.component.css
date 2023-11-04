@@ -21,12 +21,12 @@
 }
 
 
- 
+
 .img-card{
   @apply  tw-rounded-[var(--border-radius-medium,12px)];
   background: url('/assets/images/card1.png'), lightgray 50% / cover no-repeat;
-  
-  
+
+
 }
 
 
@@ -54,7 +54,7 @@ line-height: 52px; /* 115.556% */
   border: 0.5px solid #DCE5EB;
   background: var(--generic-white, #FFF);
   /* Shadow/Small */
-  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.03); 
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.03);
 
 }
 

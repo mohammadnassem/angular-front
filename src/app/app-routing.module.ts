@@ -19,6 +19,9 @@ import {InvestingComponent} from "./components/health-tourism/investing/investin
 import {ProfessionalComponent} from "./components/dashboard/professional/professional.component";
 import {FacilityComponent} from "./components/dashboard/facility/facility.component";
 import {ProfileSpecialitiesComponent} from "./components/dashboard/profile-specialities/profile-specialities.component";
+import {
+  SettingsProfessionalComponent
+} from "./components/dashboard/settings-professional/settings-professional.component";
 
 
 const routes: Routes = [
@@ -40,6 +43,7 @@ const routes: Routes = [
   {path: 'professional', component: ProfessionalComponent},
   {path: 'facility', component: FacilityComponent},
   {path: 'profile-specialities', component: ProfileSpecialitiesComponent},
+  {path: 'settings-professional', component: SettingsProfessionalComponent},
   {path: '**', redirectTo: ''}
   // { path: 'nucleoicons',      component: NucleoiconsComponent }
 ];
