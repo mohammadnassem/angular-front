@@ -6,128 +6,81 @@
     <div class="content-wrapper pad-none">
       <div class="content-inner">
         <!-- Testimonial Section -->
-        <section class="margin-bottom-110 margin-top-125">
+        <section class="margin-bottom-110">
           <div class="container">
-            <div class="container margin-bottom-110 d-flex justify-content-center align-items-center">
-              <div class="progresses margin-bottom-100">
-                <div class="steps ">
-                  <i class="ti-angle-left" ></i>
+            <div class="events-wrapper relative">
+              <div class="progresses " #eventsWrapper [style.width.px]="eventsWrapperWidth">
+                <div class="start"></div>
+                <div class="steps relative" (click)="onEventClick(0)" [ngClass]="{'public-color-background': selectedElement[0],'public-border-color':selectedIndex>=0}">
+                  <div class="progress-date" [ngClass]="{'public-color':  selectedIndex>=0}">2001</div>
+                  <div class="pipe" [ngClass]="{'public-color-background': selectedIndex>=0}"></div>
                 </div>
-                <span class="start"></span>
-
-                <div class="steps relative">
-                  <div class="progress-date">1999</div>
-                  <div class="pipe public-color"></div>
-                </div>
-                <span class="line  dha-color relative">
-              <!-- start text-center -->
-              <div class="progress-data text-center">
-              		<div class="f-box-inner div-bg-img b-radius-20" data-bg="images/bg/ft-bg1.jpg">
-											<div class="feature-content mb-4">
-												<div class="feature-title">
-													<h5 class="margin-bottom-10">1st Health centre opened in  AL Ras</h5>
-												</div>
-												<p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                           <div class="feature-title">
-													<h5 class="margin-top-10">30 Bed</h5>
-												</div>
-											</div>
-										</div>
+                <div class="line relative" [ngClass]="{'public-color-background': selectedIndex>0}">
             </div>
-                  <!-- end text-center -->
-            </span>
-                <div class="steps relative">
-                  <div class="progress-date">1951</div>
-                  <div class="pipe"></div>
+                <div class="steps relative" (click)="onEventClick(1)" [ngClass]="{' public-color-background': selectedElement[1],'public-border-color':selectedIndex>=1}">
+                  <div class="progress-date" [ngClass]="{'public-color': selectedIndex>=1}">2002</div>
+                  <div class="pipe" [ngClass]="{'public-color-background': selectedIndex>=1}"></div>
                 </div>
-                <span class="line relative ">
-                <!-- start text-center -->
-              <div class="progress-data text-center">
-              		<div class="f-box-inner div-bg-img b-radius-20" data-bg="images/bg/ft-bg1.jpg">
-											<div class="feature-content mb-4">
-												<div class="feature-title">
-													<h5 class="margin-bottom-10">AL Maktoum Hospital</h5>
-												</div>
-												<p class="mb-0"></p>
-                           <div class="feature-title">
-													<h5 class=" margin-top-10">157 Bed</h5>
-												</div>
-											</div>
-										</div>
+                <div class="line relative" [ngClass]="{'public-color-background': selectedIndex>1}">
             </div>
-                  <!-- end text-center -->
-            </span>
-
-                <div class="steps relative">
-                  <div class="progress-date">1973</div>
-                  <div class="pipe"></div>
+                <div class="steps relative" (click)="onEventClick(2)" [ngClass]="{' public-color-background': selectedElement[2],'public-border-color':selectedIndex>=2}">
+                  <div class="progress-date" [ngClass]="{'public-color': selectedIndex>=2}">2003</div>
+                  <div class="pipe" [ngClass]="{'public-color-background': selectedIndex>=2}"></div>
                 </div>
-                <span class="line relative">
-               <!-- start text-center -->
-              <div class="progress-data text-center">
-              		<div class="f-box-inner div-bg-img b-radius-20" data-bg="images/bg/ft-bg1.jpg">
-											<div class="feature-content mb-4">
-												<div class="feature-title">
-													<h5 class="margin-bottom-10">DHOMS</h5>
-												</div>
-												<p class="mb-0"></p>
-											</div>
-										</div>
+                <div class="line relative" [ngClass]="{'public-color-background': selectedIndex>2}">
             </div>
+                <div class="steps relative" (click)="onEventClick(3)" [ngClass]="{' public-color-background': selectedElement[3],'public-border-color':selectedIndex>=3}">
+                  <div class="progress-date" [ngClass]="{'public-color': selectedIndex>=3}">2004</div>
+                  <div class="pipe" [ngClass]="{'public-color-background': selectedIndex>=3}"></div>
+                </div>
+                <div class="line relative" [ngClass]="{'public-color-background': selectedIndex>3}">
                   <!-- end text-center -->
-            </span>
-                <div class="steps relative">
-                  <div class="progress-date">1983</div>
-                  <div class="pipe"></div>
+                 </div>
+                <div class="steps relative" (click)="onEventClick(4)" [ngClass]="{'public-color-background': selectedElement[4],'public-border-color':selectedIndex>=4}">
+                  <div class="progress-date" [ngClass]="{'public-color': selectedIndex>=4}">2005</div>
+                  <div class="pipe" [ngClass]="{'public-color-background': selectedIndex>=4}"></div>
                 </div>
-                <span class="line relative">
-              <!-- start text-center -->
-              <div class="progress-data text-center">
-              		<div class="f-box-inner div-bg-img b-radius-20" data-bg="images/bg/ft-bg1.jpg">
-											<div class="feature-content mb-4">
-												<div class="feature-title">
-													<h5 class="margin-bottom-10">Dubai Hospital</h5>
-												</div>
-												<p class="mb-0">Opened</p>
-                          <div class="feature-title">
-													<h5 class=" margin-top-10">625 Bed</h5>
-												</div>
-											</div>
-										</div>
-            </div>
-                  <!-- end text-center -->
-            </span>
+                <div class="line relative" [ngClass]="{'public-color-background': selectedIndex>4}">
+                 </div>
+                <div class="steps relative" (click)="onEventClick(5)" [ngClass]="{' public-color-background': selectedElement[5],'public-border-color':selectedIndex>=5}">
+                  <div class="progress-date" [ngClass]="{'public-color': selectedIndex>=5}">2006</div>
+                  <div class="pipe" [ngClass]="{'public-color-background': selectedIndex>=5}"></div>
+                </div>
+                <div class="line relative" [ngClass]="{'public-color-background': selectedIndex>5}">
+                 </div>
+                <div class="steps relative" (click)="onEventClick(6)" [ngClass]="{' public-color-background': selectedElement[6],'public-border-color':selectedIndex>=6}">
+                  <div class="progress-date" [ngClass]="{'public-color': selectedIndex>=6}">2007</div>
+                  <div class="pipe" [ngClass]="{'public-color-background': selectedIndex>=6}"></div>
+                </div>
+                <div class="line relative" [ngClass]="{'public-color-background': selectedIndex>6}">
+                 </div>
+                <div class="steps relative" (click)="onEventClick(7)" [ngClass]="{' public-color-background': selectedElement[7],'public-border-color':selectedIndex>=7}">
+                  <div class="progress-date" [ngClass]="{'public-color': selectedIndex>=7}">2008</div>
+                  <div class="pipe" [ngClass]="{'public-color-background': selectedIndex>=7}"></div>
+                </div>
+                <div class="line relative" [ngClass]="{'public-color-background': selectedIndex>7}">
+                 </div>
+                <div class="steps relative" (click)="onEventClick(8)" [ngClass]="{' public-color-background': selectedElement[8],'public-border-color':selectedIndex>=8}">
+                  <div class="progress-date" [ngClass]="{'public-color': selectedIndex>=8}">2009</div>
+                  <div class="pipe" [ngClass]="{'public-color-background': selectedIndex>=8}"></div>
+                </div>
+                <div class="line relative" [ngClass]="{'public-color-background': selectedIndex>8}">
+                 </div>
+                <div class="steps relative" (click)="onEventClick(9)" [ngClass]="{'public-color-background': selectedElement[9],'public-border-color':selectedIndex>=9}">
+                  <div class="progress-date" [ngClass]="{'public-color': selectedIndex>=9}">2010</div>
+                  <div class="pipe" [ngClass]="{'public-color-background': selectedIndex>=9}"></div>
+                </div>
+                <div class="end"></div>
 
-                <div class="steps relative">
-                  <div class="progress-date">1986</div>
-                  <div class="pipe"></div>
-                </div>
-
-                <span class="line relative">
-              <!-- start text-center -->
-              <div class="progress-data text-center">
-              		<div class="f-box-inner div-bg-img b-radius-20" data-bg="images/bg/ft-bg1.jpg">
-											<div class="feature-content mb-4">
-												<div class="feature-title">
-													<h5 class="margin-bottom-10">1st Private Hospital</h5>
-												</div>
-												<p class="mb-0">Established</p>
-											</div>
-										</div>
-            </div>
-                  <!-- end text-center -->
-            </span>
-
-                <div class="steps relative">
-                  <div class="progress-date">2000</div>
-                  <div class="pipe"></div>
-                </div>
-                <span class="end"></span>
-                <div class="steps ">
-                <i class="ti-angle-right" ></i>
-                </div>
               </div>
-
+              <ul class="cd-timeline-navigation">
+                <li>
+                  <a href="#" (click)="onScrollClick($event, false)" class="prev" [ngClass]="{'inactive':prevLinkInactive}">Prev</a>
+                </li>
+                <li>
+                  <a href="#" (click)="onScrollClick($event, true)" class="next" [ngClass]="{'inactive':nextLinkInactive}">Next</a>
+                </li>
+              </ul>
             </div>
           </div>
           <!-- Container -->

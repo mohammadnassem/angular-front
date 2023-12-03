@@ -1,0 +1,10 @@
+<h1> Horizontal Timeline Example for Angular</h1>
+
+<button (click)="load()" class="btn btn-primary">Load The TimeLine</button>
+<div *ngIf="timeline.length" class="container-fluid">
+  <horizontal-timeline [timelineElements]="timeline" [showContent]="true" [timelineWrapperWidth]="1000"></horizontal-timeline>
+</div>
+
+<div class="footer">
+  <a href="https://github.com/shalugin/horizontal-timeline">Horizontal Timeline from Alexander Shalugin</a>
+</div>
