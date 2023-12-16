@@ -1,5 +1,6 @@
 import {AfterViewInit, ChangeDetectorRef, Component, ElementRef, Input, ViewChild} from '@angular/core';
-import {TimelineElement} from "../horizontal-timeline/timeline-element";
+import {ToastrService} from "ngx-toastr";
+
 
 @Component({
   selector: 'app-overview',
@@ -29,13 +30,20 @@ export class OverviewComponent implements AfterViewInit {
    // this.initView();
   }
 
-  constructor(private _cdr: ChangeDetectorRef) {
+  constructor(private _cdr: ChangeDetectorRef,private toastr: ToastrService) {
+  }
+
+
+
+  showSuccess() {
+    this.toastr.error('Hello world!', 'Toastr fun!');
   }
 
   ngAfterViewInit(): void {
     this._cdr.detach();
    // this._viewInitialized = true;
   //  this.initView();
+    this.showSuccess();
   }
 
   onScrollClick(event: Event, forward: boolean) {

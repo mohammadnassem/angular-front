@@ -22,8 +22,7 @@ import {ProfileSpecialitiesComponent} from "./components/dashboard/profile-speci
 import {
   SettingsProfessionalComponent
 } from "./components/dashboard/settings-professional/settings-professional.component";
-import {HorizontalTimelineComponent} from "./components/horizontal-timeline/horizontal-timeline.component";
-import {TestComponent} from "./components/test/test.component";
+import {HappinessMeterComponent} from "./components/happiness-meter/happiness-meter.component";
 
 
 const routes: Routes = [
@@ -32,8 +31,6 @@ const routes: Routes = [
   {path: 'public', component: PublicHealthComponent},
   {path: 'login', component: LoginComponent},
   {path: 'overview', component: OverviewComponent},
-  {path: 'horizontal-timeline', component: HorizontalTimelineComponent},
-  {path: 'test', component: TestComponent},
   {path: 'about-health-insurance', component: AboutComponent},
   {path: 'government-insurance', component: GovernmentInsuranceComponent},
   {path: 'special-program', component: SpecialProgramComponent},
@@ -48,6 +45,7 @@ const routes: Routes = [
   {path: 'facility', component: FacilityComponent},
   {path: 'profile-specialities', component: ProfileSpecialitiesComponent},
   {path: 'settings-professional', component: SettingsProfessionalComponent},
+  {path: 'HappinessMeterComponent', component: HappinessMeterComponent},
   {path: '**', redirectTo: ''}
   // { path: 'nucleoicons',      component: NucleoiconsComponent }
 ];

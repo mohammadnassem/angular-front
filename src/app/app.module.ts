@@ -36,10 +36,8 @@ import { NgApexchartsModule } from "ng-apexcharts";
 import { FacilityComponent } from './components/dashboard/facility/facility.component';
 import { ProfileSpecialitiesComponent } from './components/dashboard/profile-specialities/profile-specialities.component';
 import { SettingsProfessionalComponent } from './components/dashboard/settings-professional/settings-professional.component';
-import { HorizontalTimelineComponent } from './components/horizontal-timeline/horizontal-timeline.component';
-import { TestComponent } from './components/test/test.component';
-
-
+import { ToastrModule } from 'ngx-toastr';
+import { HappinessMeterComponent } from './components/happiness-meter/happiness-meter.component';
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -73,8 +71,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     FacilityComponent,
     ProfileSpecialitiesComponent,
     SettingsProfessionalComponent,
-    HorizontalTimelineComponent,
-    TestComponent
+    HappinessMeterComponent,
+
 
 
   ],
@@ -91,6 +89,11 @@ export function HttpLoaderFactory(http: HttpClient) {
             }
         }),
         AppRoutingModule,
+      ToastrModule.forRoot({
+        timeOut: 3500,
+        positionClass: 'toast-bottom-center',
+        preventDuplicates: true,
+      }),
 
     ],
   providers: [],

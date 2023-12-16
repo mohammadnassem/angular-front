@@ -1,0 +1,13 @@
+<!--<form   [action]="apiUrl" method="post" #myForm ngNoForm  [target]="'_blank'">-->
+<!--  <input type="hidden" name="json_payload" [value]="jsonPayload" />-->
+<!--  <input type="hidden" name="client_id" [value]="clientId" />-->
+<!--  <input type="hidden" name="signature" [value]="signature" />-->
+<!--  <input type="hidden" name="lang" [value]="lang" />-->
+<!--  <input type="hidden" name="random" [value]="random" />-->
+<!--  <input type="hidden" name="timestamp" [value]="timestamp" />-->
+<!--  <input type="hidden" name="nonce" [value]="nonce" />-->
+<!--  <input type="submit" name="submit">-->
+<!--</form>-->
+
+
+<iframe  width="100%" height="500" #iframeRef [srcdoc]="apiResponse"></iframe>
